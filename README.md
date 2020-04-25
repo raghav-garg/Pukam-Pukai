@@ -1,2 +1,2 @@
-# Smart-Dice
-Smart Dice is a game to decide whoever gets the first chance
+# Smart Dice
+Out of all participants, this app will help you get first one to start

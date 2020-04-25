@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/bottle.png">
+    <title>Smart Dice</title>
+  </head>
+  <body>
+    <section class="perspective-container center">
+      <div class="front-card">
+        <h2>Smart Dice</h2>
+        <div class="bottle"></div>
+        <input id="applicant-input" type="text" placeholder="Applicant">
+        <button id="add-applicant-btn" type="button" class="add-applicant">Add</button>
+        <div id="tags-container" class="tags-container">
+        </div>
+        <button id="sort-btn" type="button" name="button" class="sort-btn btn">Sort</button>
+      </div>
+      <div class="back-card">
+        <h2>The winner is</h2>
+        <p id="result"></p>
+        <button id="sort-again-btn" type="button" class="sort-again btn">Roll Again</button>
+        <button id="play-again-btn" type="button" class="play-again btn">Back to Home</button>
+      </div>
+    </section>
+    <script src="js/main.js"></script>
+  </body>
+</html>
